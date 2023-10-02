@@ -659,7 +659,6 @@ if (shouldApply) { _layer.layerProperty = (layerValueExpr); } else { ASDisplayNo
 
 - (BOOL)isHidden
 {
-  _bridge_prologue_read;
   return _getFromViewOrLayer(hidden, hidden);
 }
 
